@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background:linear-gradient(to right,red,blue);
+    height: 100vh;
+}
+.button{
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #028f8f;
+    box-sizing: border-box;
+    box-shadow: 0 15px 20px rgba(0,0,0,.5);
+}
+.terminal{
+    width: 245px;
+    margin: 5px;
+    font-size: 25px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    color: #5a5a5a;
+    background: #00ffea;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+#cleanall{
+    background: #f00;
+}
+#equal{
+    height: 125px;
+    background: #009700;
+}
+#zero{
+    width: 126px;
+}
